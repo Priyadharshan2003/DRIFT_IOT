@@ -1,0 +1,17 @@
+GPS sensor: To determine the position of the vehicle, a GPS sensor is required. The GPS sensor will provide the latitude, longitude, and altitude of the vehicle.
+
+Accelerometer: To measure the acceleration and orientation of the vehicle, an accelerometer is required. This information can be used to determine the speed and direction of the vehicle.
+
+Gyroscope: A gyroscope is used to measure the angular velocity of the vehicle. This information can be used to determine the orientation of the vehicle.
+
+Ultrasonic sensor: To measure the distance between the vehicle and other vehicles or objects, an ultrasonic sensor can be used. This information can be used to avoid collisions and maintain a safe distance between vehicles.
+
+LIDAR sensor: A LIDAR sensor uses laser light to create a 3D map of the surrounding environment. This information can be used to navigate the vehicle, avoid obstacles, and maintain a safe distance from other vehicles.
+
+Camera: A camera can be used to capture images and video of the surrounding environment. This information can be used for object detection and recognition, as well as for creating a 3D map of the environment.
+
+CAN Bus sensor: To communicate with other vehicles and the infrastructure, a CAN Bus sensor is required. The CAN Bus sensor will allow the vehicle to send and receive messages to and from other vehicles and the infrastructure.
+
+GPS SENSOR : To Locate Car
+
+SIM7600A Sensor : LTE Cellular

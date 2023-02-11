@@ -1,0 +1,13 @@
+GPS sensor: Connect the RX pin of the GPS sensor to the TX pin of the Arduino UNO and the TX pin of the GPS sensor to the RX pin of the Arduino UNO.
+
+Accelerometer: Connect the SDA and SCL pins of the accelerometer to the corresponding SDA and SCL pins of the Arduino UNO. Connect the VCC pin to 3.3V and the GND pin to GND.
+
+Gyroscope: Connect the SDA and SCL pins of the gyroscope to the corresponding SDA and SCL pins of the Arduino UNO. Connect the VCC pin to 3.3V and the GND pin to GND.
+
+Ultrasonic sensor: Connect the trigger pin of the ultrasonic sensor to a digital pin of the Arduino UNO and connect the echo pin to another digital pin. Connect the VCC pin to 5V and the GND pin to GND.
+
+LIDAR sensor: Connect the RX pin of the LIDAR sensor to the TX pin of the Arduino UNO and the TX pin of the LIDAR sensor to the RX pin of the Arduino UNO. Connect the VCC pin to 5V and the GND pin to GND.
+
+Camera: Connect the camera to the USB port of the Arduino UNO.
+
+CAN Bus sensor: Connect the CAN Bus sensor to the CAN Bus interface of the Arduino UNO. Connect the VCC pin to 5V and the GND pin to GND.

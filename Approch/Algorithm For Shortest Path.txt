@@ -1,0 +1,22 @@
+ # An algorithm that finds the shortest path for a vehicle in light traffic:
+
+1.Input: A weighted graph representing the road network, the starting point, and the destination.
+
+2.Initialize:
+
+Create a priority queue (min heap) to store the estimated distance (sum of the edge weights) from the start to each vertex.
+Create a dictionary to store the distance from the start to each vertex. Set the distance of the starting vertex to 0 and all other vertices to infinity.
+Create a dictionary to store the parent of each vertex. Set the parent of the starting vertex to None.
+
+3.While the priority queue is not empty:
+
+Extract the vertex with the smallest estimated distance from the priority queue and mark it as visited.
+For each unvisited neighbor of the current vertex:
+Calculate the distance from the start to the neighbor through the current vertex.
+If the new distance is less than the current distance stored in the dictionary, update the distance and the parent for the neighbor.
+Push the neighbor into the priority queue with the updated estimated distance.
+
+4.Output:
+
+The path from the starting vertex to the destination can be reconstructed from the parent dictionary.
+This algorithm is known as Dijkstra's algorithm, which is an efficient algorithm for finding the shortest path between two nodes in a graph with non-negative edge weights. The time complexity of the algorithm is O(E + V log V), where E is the number of edges and V is the number of vertices in the graph.
